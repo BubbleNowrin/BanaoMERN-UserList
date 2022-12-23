@@ -9,9 +9,9 @@ import { routes } from './Routes/Routes';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <RouterProvider router={routes}>
-      <App />
-    </RouterProvider>
+    {/* <RouterProvider router={routes}> */}
+    <App />
+    {/* </RouterProvider> */}
   </React.StrictMode>
 );
 
